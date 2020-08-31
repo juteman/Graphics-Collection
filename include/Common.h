@@ -1,8 +1,6 @@
 #pragma once
-#include <cstdint>
 #include "eigen3/Eigen/Dense"
-
-
+#include <cstdint>
 
 const int WIDTH = 1920;
 const int HIGHT = 1080;
@@ -23,9 +21,14 @@ struct Color
     int8 a;
 };
 
-
 struct Vertex
 {
     Pos   pos;
     Color color;
+};
+
+enum LineAlgorithm
+{
+    Bresenham_s,
+    WuXiaolin_s
 };

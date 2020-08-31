@@ -9,13 +9,12 @@ class Renderer
     ~Renderer();
     virtual void Draw();
 
-    /**
-     * \brief draw a pixel with color
-     * \param vertex vertex type with positions and color
-     **/
+    /// @brief To draw a pixel on screen
+    /// @param vertex  positions and color to draw
     void Pixel(Vertex &vertex);
 
-    void Line();
+    template<LineAlgorithm>
+    void Line(Vertex& start, Vertex& end);
 
     void Update();
 

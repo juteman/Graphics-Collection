@@ -14,4 +14,4 @@
 ## Line
 
 Line draw by Bresenham Line-Drawing Algorithm
-![line](image/line.png)
+![line](image/Line.PNG)

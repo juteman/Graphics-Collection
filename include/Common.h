@@ -9,8 +9,8 @@ typedef int8_t int8;
 
 struct Pos
 {
-    int8 x;
-    int8 y;
+    int x;
+    int y;
 };
 
 struct Color

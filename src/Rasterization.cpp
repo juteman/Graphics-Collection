@@ -3,12 +3,11 @@
 #define SDL_MAIN_HANDLED
 #include "Renderer.h"
 
-using namespace std;
 
 int main()
 {
-    Renderer renderer;
-    renderer.Init();
-    renderer.Update();
+    Renderer testrender;
+    testrender.Init();
+    testrender.Update();
     return 0;
 }

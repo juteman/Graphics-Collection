@@ -1,7 +1,7 @@
 # Rasterization
 
 + [x] Drawing Points
-+ [ ] Drawing Lines
++ [x] Drawing Lines
 + [ ] Drawing Triangles
 + [ ] Anti-Aliasing Using Supersampling
 + [ ] Modeling Transforms

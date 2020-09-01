@@ -44,8 +44,7 @@ void Renderer::Pixel(Vertex &vertex)
 void Renderer::Draw()
 {
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-    Vertex start = {{100, 0}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
-    Vertex end = {{100, 900}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
-    Line(start, end);
+    Vertex start = {{500, 900}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
+    Vertex end = {{0, 800}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
+    Line<Bresenham_s>(start, end);
 }
-

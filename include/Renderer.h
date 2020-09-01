@@ -13,7 +13,7 @@ class Renderer
     /// @param vertex  positions and color to draw
     void Pixel(Vertex &vertex);
 
-    //template <LineAlgorithm>
+    template <LineAlgorithm LineType>
     void Line(Vertex &start, Vertex &end);
 
     void Update();

@@ -3,7 +3,8 @@
 /// @brief Bresenham line: see https://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html
 /// @param start  The start point of line
 /// @param end  The end point of line
-void Renderer::Line(Vertex &start, Vertex &end)
+template <>
+void Renderer::Line<Bresenham_s>(Vertex &start, Vertex &end)
 {
     int    delta_x = abs(end.pos.x - start.pos.x);
     int    delta_y = abs(end.pos.y - start.pos.y);

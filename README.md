@@ -9,3 +9,9 @@
 + [ ] Drawing Scaled Images
 + [ ] Anti-Aliasing Image Elements Using Trilinear Filtering
 + [ ] Alpha Compositing
+
+
+## Line
+
+Line draw by Bresenham Line-Drawing Algorithm
+![line](image/line.png)

@@ -4,14 +4,14 @@
 /// @param start  The start point of line
 /// @param end  The end point of line
 template <>
-void Renderer::Line<Bresenham_s>(Vertex &start, Vertex &end)
+void Renderer::Line<Bresenham_s>(Point2 &start, Point2 &end)
 {
     int    delta_x = abs(end.pos.x - start.pos.x);
     int    delta_y = abs(end.pos.y - start.pos.y);
     bool   steep = delta_y > delta_x;
     int    step = ((end.pos.x - start.pos.x) * (end.pos.y - start.pos.y) > 0) ? 1 : -1;
     int    eps = 0;
-    Vertex temp{};
+    Point2 temp{};
     // if steep true,
     if (steep)
     {

@@ -1,5 +1,4 @@
 #pragma once
-#include "eigen3/Eigen/Dense"
 #include <cstdint>
 
 const int WIDTH = 1920;
@@ -21,7 +20,7 @@ struct Color
     int8 a;
 };
 
-struct Vertex
+struct Point2
 {
     Pos   pos;
     Color color;

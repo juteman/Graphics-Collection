@@ -34,7 +34,7 @@ void Renderer::Update()
     }
 }
 
-void Renderer::Pixel(Vertex &vertex)
+void Renderer::Pixel(Point2 &vertex)
 {
     SDL_SetRenderDrawColor(
         renderer, vertex.color.r, vertex.color.g, vertex.color.b, vertex.color.a);
@@ -44,7 +44,7 @@ void Renderer::Pixel(Vertex &vertex)
 void Renderer::Draw()
 {
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-    Vertex start = {{500, 900}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
-    Vertex end = {{0, 800}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
+    Point2 start = {{500, 900}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
+    Point2 end = {{0, 800}, {static_cast<int8>(255), 0, 0, static_cast<int8>(255)}};
     Line<Bresenham_s>(start, end);
 }

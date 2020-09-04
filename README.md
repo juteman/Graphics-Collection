@@ -15,3 +15,7 @@
 
 Line draw by Bresenham Line-Drawing Algorithm
 ![line](image/Line.PNG)
+
+## Triangle
+Draw triangle with gouraud interpolation
+![trangle](image/Triangle.PNG)

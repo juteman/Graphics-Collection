@@ -4,7 +4,7 @@
 const int WIDTH = 1920;
 const int HIGHT = 1080;
 
-typedef int8_t int8;
+typedef uint8_t int8;
 
 struct Pos
 {

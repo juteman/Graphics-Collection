@@ -13,7 +13,7 @@ set(SOURCES
         src/Rasterization.cpp
         src/Line.cpp
         src/Renderer.cpp
-        )
+        src/Triangles.cpp)
 
 set(INCLUDE
         include/Renderer.h

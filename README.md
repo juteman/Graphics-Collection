@@ -2,8 +2,7 @@
 
 + [x] Drawing Points
 + [x] Drawing Lines
-+ [ ] Drawing Triangles
-+ [ ] Anti-Aliasing Using Supersampling
++ [x] Drawing Triangles
 + [ ] Modeling Transforms
 + [ ] Viewing Transform
 + [ ] Drawing Scaled Images
@@ -19,3 +18,8 @@ Line draw by Bresenham Line-Drawing Algorithm
 ## Triangle
 Draw triangle with gouraud interpolation. Dealing with  transparent  triangles edges.
 ![trangle](image/Triangle.PNG)
+
+## super sampling
+![samping](image/SuperSampling.PNG)
+
+but it seems get some error about super sampling.

@@ -8,8 +8,8 @@ typedef uint8_t int8;
 
 struct Pos
 {
-    int x;
-    int y;
+    float x;
+    float y;
 };
 
 struct Color

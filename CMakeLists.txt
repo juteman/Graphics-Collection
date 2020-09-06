@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.12)
+project(DX12Collections)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+ADD_DEFINITIONS(-DUNICODE)
+ADD_DEFINITIONS(-D_UNICODE)
+add_subdirectory(Rasterization)
+
+if(WIN32)
+add_subdirectory(DX12)
+endif()

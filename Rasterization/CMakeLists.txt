@@ -18,7 +18,7 @@ set(SOURCES
 set(INCLUDE
         include/Renderer.h
         include/Common.h
-        src/Renderer.cpp)
+        )
 
 add_executable(Rasterization ${SOURCES} ${INCLUDE})
 target_include_directories(Rasterization

@@ -14,6 +14,7 @@ void Renderer::Init()
     if (window == nullptr)
     {
     }
+    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
     SDL_RenderClear(renderer);
 }

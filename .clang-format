@@ -6,6 +6,9 @@ AlignOperands: true
 BinPackParameters: false
 BinPackArguments: false
 AlwaysBreakTemplateDeclarations: Yes
+AllowAllConstructorInitializersOnNextLine: false
+BreakConstructorInitializers:  AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
 Cpp11BracedListStyle: true
 ColumnLimit: 100
 ...
